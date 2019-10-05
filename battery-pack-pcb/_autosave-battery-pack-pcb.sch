@@ -37,7 +37,7 @@ F 3 "~" V 4200 3260 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D1
+L Device:D_Schottky_Small D1
 U 1 1 5D5C10F0
 P 3500 2500
 F 0 "D1" H 3500 2765 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "~" H 3500 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Small D2
+L Device:D_Schottky_Small D2
 U 1 1 5D5C26DF
 P 4400 2500
 F 0 "D2" H 4400 2765 50  0000 C CNN
@@ -77,7 +77,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 3550 3750 3950
 Wire Wire Line
-	3750 3950 5250 3950
+	3750 3950 4900 3950
 Connection ~ 3750 3550
 Wire Wire Line
 	3750 3550 4200 3550
@@ -104,7 +104,7 @@ F 3 "~" H 5750 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 1950 5300 1950
+	4600 1950 4900 1950
 Wire Wire Line
 	5300 1950 5300 2050
 Wire Wire Line
@@ -147,4 +147,25 @@ Wire Wire Line
 	4200 2500 4300 2500
 Wire Wire Line
 	4500 2500 4600 2500
+$Comp
+L Device:C_Small C1
+U 1 1 5D987608
+P 4900 2500
+F 0 "C1" H 4992 2546 50  0000 L CNN
+F 1 "C_Small" H 4992 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4900 2500 50  0001 C CNN
+F 3 "~" H 4900 2500 50  0001 C CNN
+	1    4900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1950 4900 2400
+Connection ~ 4900 1950
+Wire Wire Line
+	4900 1950 5300 1950
+Wire Wire Line
+	4900 2600 4900 3950
+Connection ~ 4900 3950
+Wire Wire Line
+	4900 3950 5250 3950
 $EndSCHEMATC

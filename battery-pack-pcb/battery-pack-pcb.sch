@@ -37,7 +37,7 @@ F 3 "~" V 4200 3260 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D1
+L Device:D_Schottky_Small D1
 U 1 1 5D5C10F0
 P 3500 2500
 F 0 "D1" H 3500 2765 50  0000 C CNN
@@ -48,7 +48,7 @@ F 3 "~" H 3500 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Small D2
+L Device:D_Schottky_Small D2
 U 1 1 5D5C26DF
 P 4400 2500
 F 0 "D2" H 4400 2765 50  0000 C CNN
