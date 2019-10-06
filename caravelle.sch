@@ -868,17 +868,6 @@ F 3 "" H 4050 5450 50  0001 C CNN
 	1    4050 5450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDA #PWR020
-U 1 1 5BF26681
-P 5500 6750
-F 0 "#PWR020" H 5500 6500 50  0001 C CNN
-F 1 "GNDA" H 5505 6577 50  0000 C CNN
-F 2 "" H 5500 6750 50  0001 C CNN
-F 3 "" H 5500 6750 50  0001 C CNN
-	1    5500 6750
-	1    0    0    -1  
-$EndComp
 Connection ~ 11850 1750
 Text Label 9500 2050 0    60   ~ 0
 L21
@@ -1374,17 +1363,6 @@ Text Label 8700 3350 0    60   ~ 0
 SWDCLK
 Text Label 6250 1750 0    60   ~ 0
 L14
-$Comp
-L power:GND #PWR06
-U 1 1 5B0C0A9D
-P 5500 2550
-F 0 "#PWR06" H 5500 2300 50  0001 C CNN
-F 1 "GND" H 5500 2400 50  0000 C CNN
-F 2 "" H 5500 2550 50  0001 C CNN
-F 3 "" H 5500 2550 50  0001 C CNN
-	1    5500 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2900 1300 3000 1300
 $Comp
@@ -1626,7 +1604,6 @@ F 3 "" H 950 6200 50  0001 C CNN
 	1    950  6200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1500 1700
 NoConn ~ 3500 2900
 NoConn ~ 3500 2800
 Text Label 3500 2300 0    60   ~ 0
@@ -1890,7 +1867,6 @@ F 3 "" H 2550 5300 50  0001 C CNN
 	1    2550 5300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3550 6500
 NoConn ~ 3550 6600
 NoConn ~ 3550 6700
 NoConn ~ 3550 6800
@@ -1912,4 +1888,12 @@ Wire Wire Line
 	1350 6000 1550 6000
 Wire Wire Line
 	950  6200 950  6000
+Text Label 1500 1700 2    60   ~ 0
+ROW
+Text Label 5500 2550 0    60   ~ 0
+ROW
+Text Label 3550 6500 0    60   ~ 0
+ROW_R
+Text Label 5500 6750 0    60   ~ 0
+ROW_R
 $EndSCHEMATC
