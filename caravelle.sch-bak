@@ -43,23 +43,23 @@ $EndComp
 $Comp
 L Device:C C1
 U 1 1 5B11573B
-P 2550 1300
-F 0 "C1" V 2800 1300 50  0000 C CNN
-F 1 "0.1uF" V 2700 1300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2588 1150 50  0001 C CNN
-F 3 "" H 2550 1300 50  0001 C CNN
-	1    2550 1300
+P 2750 1300
+F 0 "C1" V 3000 1300 50  0000 C CNN
+F 1 "0.1uF" V 2900 1300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2788 1150 50  0001 C CNN
+F 3 "" H 2750 1300 50  0001 C CNN
+	1    2750 1300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 5B115741
-P 2800 1300
-F 0 "#PWR07" H 2800 1050 50  0001 C CNN
-F 1 "GND" H 2800 1150 50  0000 C CNN
-F 2 "" H 2800 1300 50  0001 C CNN
-F 3 "" H 2800 1300 50  0001 C CNN
-	1    2800 1300
+P 3000 1300
+F 0 "#PWR07" H 3000 1050 50  0001 C CNN
+F 1 "GND" H 3000 1150 50  0000 C CNN
+F 2 "" H 3000 1300 50  0001 C CNN
+F 3 "" H 3000 1300 50  0001 C CNN
+	1    3000 1300
 	1    0    0    -1  
 $EndComp
 Text Label 7350 1150 0    60   ~ 0
@@ -101,12 +101,12 @@ L24
 $Comp
 L power:VCC #PWR05
 U 1 1 5B11E53F
-P 2300 1100
-F 0 "#PWR05" H 2300 950 50  0001 C CNN
-F 1 "VCC" H 2300 1250 50  0000 C CNN
-F 2 "" H 2300 1100 50  0001 C CNN
-F 3 "" H 2300 1100 50  0001 C CNN
-	1    2300 1100
+P 2500 1100
+F 0 "#PWR05" H 2500 950 50  0001 C CNN
+F 1 "VCC" H 2500 1250 50  0000 C CNN
+F 2 "" H 2500 1100 50  0001 C CNN
+F 3 "" H 2500 1100 50  0001 C CNN
+	1    2500 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -137,47 +137,47 @@ Connection ~ 9750 2050
 $Comp
 L power:GND #PWR014
 U 1 1 5B11F4D1
-P 2200 3850
-F 0 "#PWR014" H 2200 3600 50  0001 C CNN
-F 1 "GND" H 2200 3700 50  0000 C CNN
-F 2 "" H 2200 3850 50  0001 C CNN
-F 3 "" H 2200 3850 50  0001 C CNN
-	1    2200 3850
+P 2400 3850
+F 0 "#PWR014" H 2400 3600 50  0001 C CNN
+F 1 "GND" H 2400 3700 50  0000 C CNN
+F 2 "" H 2400 3850 50  0001 C CNN
+F 3 "" H 2400 3850 50  0001 C CNN
+	1    2400 3850
 	1    0    0    -1  
 $EndComp
-Text Label 3300 1800 0    60   ~ 0
+Text Label 3500 1800 0    60   ~ 0
 SWDIO
-Text Label 3300 1700 0    60   ~ 0
+Text Label 3500 1700 0    60   ~ 0
 SWDCLK
-Text Label 3300 3300 0    60   ~ 0
+Text Label 3500 3300 0    60   ~ 0
 L12
-Text Label 1300 3400 2    60   ~ 0
+Text Label 1500 3400 2    60   ~ 0
 L19
-Text Label 1300 3200 2    60   ~ 0
+Text Label 1500 3200 2    60   ~ 0
 L5
-Text Label 1300 3000 2    60   ~ 0
+Text Label 1500 3000 2    60   ~ 0
 L11
-Text Label 1300 1900 2    60   ~ 0
+Text Label 1500 1900 2    60   ~ 0
 L18
-Text Label 1300 3300 2    60   ~ 0
+Text Label 1500 3300 2    60   ~ 0
 L1
-Text Label 1300 2800 2    60   ~ 0
+Text Label 1500 2800 2    60   ~ 0
 L2
-Text Label 1300 2900 2    60   ~ 0
+Text Label 1500 2900 2    60   ~ 0
 L8
-Text Label 1300 3100 2    60   ~ 0
+Text Label 1500 3100 2    60   ~ 0
 L15
-Text Label 1300 2000 2    60   ~ 0
+Text Label 1500 2000 2    60   ~ 0
 L4
-Text Label 1300 2100 2    60   ~ 0
+Text Label 1500 2100 2    60   ~ 0
 L10
-Text Label 1300 2200 2    60   ~ 0
+Text Label 1500 2200 2    60   ~ 0
 L17
-Text Label 1300 2300 2    60   ~ 0
+Text Label 1500 2300 2    60   ~ 0
 L3
-Text Label 1300 2400 2    60   ~ 0
+Text Label 1500 2400 2    60   ~ 0
 L9
-Text Label 1300 2500 2    60   ~ 0
+Text Label 1500 2500 2    60   ~ 0
 L16
 $Comp
 L power:PWR_FLAG #FLG01
@@ -202,11 +202,11 @@ F 3 "" H 4200 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9250 -1600
-Text Label 3300 2700 0    60   ~ 0
+Text Label 3500 2700 0    60   ~ 0
 L24
-Text Label 3300 2600 0    60   ~ 0
+Text Label 3500 2600 0    60   ~ 0
 L23
-Text Label 3300 2500 0    60   ~ 0
+Text Label 3500 2500 0    60   ~ 0
 L22
 Wire Wire Line
 	8700 1450 8700 1750
@@ -532,7 +532,7 @@ Wire Notes Line
 Text Notes 800  950  0    60   ~ 0
 BL652 MODULE
 Wire Wire Line
-	2300 1300 2400 1300
+	2500 1300 2600 1300
 Text Notes 5300 950  0    60   ~ 0
 SWITCH
 Wire Notes Line
@@ -910,7 +910,7 @@ F 3 "" H 9100 6250 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9300 6250 9500 6250
-Text Label 3300 3400 0    60   ~ 0
+Text Label 3500 3400 0    60   ~ 0
 L7
 Connection ~ 8700 2050
 Wire Wire Line
@@ -1004,11 +1004,11 @@ F 3 "" H 10100 7900 60  0001 C CNN
 	1    10100 7900
 	1    0    0    -1  
 $EndComp
-Text Label 3300 3200 0    60   ~ 0
+Text Label 3500 3200 0    60   ~ 0
 L14
-Text Label 3300 2100 0    60   ~ 0
+Text Label 3500 2100 0    60   ~ 0
 L6
-Text Label 3300 2200 0    60   ~ 0
+Text Label 3500 2200 0    60   ~ 0
 L13
 Connection ~ 5500 6600
 Wire Wire Line
@@ -1386,7 +1386,7 @@ F 3 "" H 5500 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 1300 2800 1300
+	2900 1300 3000 1300
 $Comp
 L power:GND #PWR0103
 U 1 1 5D968FE5
@@ -1543,251 +1543,98 @@ F 3 "" H 11700 3300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 3600 2200 3700
-Wire Wire Line
-	2200 3700 2300 3700
-Wire Wire Line
-	2500 3700 2500 3600
-Wire Wire Line
-	2300 3600 2300 3700
-Connection ~ 2300 3700
-Wire Wire Line
-	2300 3700 2400 3700
-Wire Wire Line
 	2400 3600 2400 3700
-Connection ~ 2400 3700
 Wire Wire Line
 	2400 3700 2500 3700
 Wire Wire Line
-	2200 3700 2200 3850
-Connection ~ 2200 3700
+	2700 3700 2700 3600
+Wire Wire Line
+	2500 3600 2500 3700
+Connection ~ 2500 3700
+Wire Wire Line
+	2500 3700 2600 3700
+Wire Wire Line
+	2600 3600 2600 3700
+Connection ~ 2600 3700
+Wire Wire Line
+	2600 3700 2700 3700
+Wire Wire Line
+	2400 3700 2400 3850
+Connection ~ 2400 3700
 $Comp
 L RF_Bluetooth:BL652 U1
 U 1 1 5B0E95BA
-P 2300 2600
-F 0 "U1" H 1600 3650 40  0000 C CNN
-F 1 "BL652_LEFT" H 2300 2600 40  0000 C CNN
-F 2 "RF_Module:Laird_BL652" H 1950 2850 40  0001 C CNN
-F 3 "" H 2050 2950 40  0000 C CNN
-	1    2300 2600
+P 2500 2600
+F 0 "U1" H 1800 3650 40  0000 C CNN
+F 1 "BL652_LEFT" H 2500 2600 40  0000 C CNN
+F 2 "RF_Module:Laird_BL652" H 2150 2850 40  0001 C CNN
+F 3 "" H 2250 2950 40  0000 C CNN
+	1    2500 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 1100 2300 1300
-Connection ~ 2300 1300
+	2500 1100 2500 1300
+Connection ~ 2500 1300
 Wire Wire Line
-	2300 1300 2300 1500
-NoConn ~ 3300 3000
-Wire Wire Line
-	3300 3100 3550 3100
+	2500 1300 2500 1500
+NoConn ~ 3500 3000
 $Comp
 L power:GND #PWR02
 U 1 1 5D8B63B4
-P 4050 3150
-F 0 "#PWR02" H 4050 2900 50  0001 C CNN
-F 1 "GND" H 4050 3000 50  0000 C CNN
-F 2 "" H 4050 3150 50  0001 C CNN
-F 3 "" H 4050 3150 50  0001 C CNN
-	1    4050 3150
+P 850 1900
+F 0 "#PWR02" H 850 1650 50  0001 C CNN
+F 1 "GND" H 850 1750 50  0000 C CNN
+F 2 "" H 850 1900 50  0001 C CNN
+F 3 "" H 850 1900 50  0001 C CNN
+	1    850  1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 3100 4050 3100
-Wire Wire Line
-	4050 3100 4050 3150
 $Comp
 L Switch:SW_Push SW3
 U 1 1 5D889EBA
-P 3750 3100
-F 0 "SW3" H 3750 3000 60  0000 C CNN
-F 1 "RESET_SW" H 3750 3000 60  0001 C CNN
-F 2 "locallib:SW_SPST_ALPS-SKRP" H 3750 3100 60  0001 C CNN
-F 3 "" H 3750 3100 60  0000 C CNN
-	1    3750 3100
+P 1150 1800
+F 0 "SW3" H 1150 1700 60  0000 C CNN
+F 1 "RESET_SW" H 1150 1700 60  0001 C CNN
+F 2 "locallib:SW_SPST_ALPS-SKRP" H 1150 1800 60  0001 C CNN
+F 3 "" H 1150 1800 60  0000 C CNN
+	1    1150 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7200 3450 7400 3450
-$Comp
-L Device:C C4
-U 1 1 5DA57153
-P 2550 5500
-F 0 "C4" V 2800 5500 50  0000 C CNN
-F 1 "0.1uF" V 2700 5500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2588 5350 50  0001 C CNN
-F 3 "" H 2550 5500 50  0001 C CNN
-	1    2550 5500
-	0    -1   -1   0   
-$EndComp
-Text Label 3300 6000 0    60   ~ 0
-SWDIO_R
-Text Label 3300 5900 0    60   ~ 0
-SWDCLK_R
-Text Label 1300 7100 2    60   ~ 0
-R12
-Text Label 1300 7300 2    60   ~ 0
-R19
-Text Label 1300 6700 2    60   ~ 0
-R5
-Text Label 1300 6800 2    60   ~ 0
-R11
-Text Label 1300 6900 2    60   ~ 0
-R18
-Text Label 3300 7500 0    60   ~ 0
-R1
-Text Label 1300 7600 2    60   ~ 0
-R2
-Text Label 1300 7400 2    60   ~ 0
-R8
-Text Label 1300 7200 2    60   ~ 0
-R15
-Text Label 1300 6400 2    60   ~ 0
-R4
-Text Label 1300 6500 2    60   ~ 0
-R10
-Text Label 1300 6600 2    60   ~ 0
-R17
-Text Label 1300 6100 2    60   ~ 0
-R3
-Text Label 1300 6200 2    60   ~ 0
-R9
-Text Label 1300 6300 2    60   ~ 0
-R16
-Text Label 3300 7000 0    60   ~ 0
-R24
-Text Label 3300 7100 0    60   ~ 0
-R23
-Text Label 3300 7200 0    60   ~ 0
-R22
-Text Label 3300 7400 0    60   ~ 0
-R21
 Text Notes 800  5150 0    60   ~ 0
 BL652 MODULE
-Wire Wire Line
-	2300 5500 2400 5500
-Text Label 3300 6300 0    60   ~ 0
-R7
-Text Label 3300 6400 0    60   ~ 0
-R14
-Text Label 1300 7000 2    60   ~ 0
-R6
-Text Label 1300 7500 2    60   ~ 0
-R13
-Text Label 3300 7600 0    60   ~ 0
-R20
-Wire Wire Line
-	2700 5500 2800 5500
-Wire Wire Line
-	2200 7800 2200 7900
-Wire Wire Line
-	2200 7900 2300 7900
-Wire Wire Line
-	2500 7900 2500 7800
-Wire Wire Line
-	2300 7800 2300 7900
-Connection ~ 2300 7900
-Wire Wire Line
-	2300 7900 2400 7900
-Wire Wire Line
-	2400 7800 2400 7900
-Connection ~ 2400 7900
-Wire Wire Line
-	2400 7900 2500 7900
-Wire Wire Line
-	2200 7900 2200 8050
-Connection ~ 2200 7900
-$Comp
-L RF_Bluetooth:BL652 U5
-U 1 1 5DA571A6
-P 2300 6800
-F 0 "U5" H 1600 7850 40  0000 C CNN
-F 1 "BL652_RIGHT" H 2300 6800 40  0000 C CNN
-F 2 "RF_Module:Laird_BL652" H 1950 7050 40  0001 C CNN
-F 3 "" H 2050 7150 40  0000 C CNN
-	1    2300 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 5300 2300 5500
-Connection ~ 2300 5500
-Wire Wire Line
-	2300 5500 2300 5700
-Wire Wire Line
-	3300 7300 3550 7300
 $Comp
 L Switch:SW_Push SW4
 U 1 1 5DA571B8
-P 3750 7300
-F 0 "SW4" H 3750 7200 60  0000 C CNN
-F 1 "RESET_SW" H 3750 7200 60  0001 C CNN
-F 2 "locallib:SW_SPST_ALPS-SKRP" H 3750 7300 60  0001 C CNN
-F 3 "" H 3750 7300 60  0000 C CNN
-	1    3750 7300
+P 1150 6000
+F 0 "SW4" H 1150 5900 60  0000 C CNN
+F 1 "RESET_SW" H 1150 5900 60  0001 C CNN
+F 2 "locallib:SW_SPST_ALPS-SKRP" H 1150 6000 60  0001 C CNN
+F 3 "" H 1150 6000 60  0000 C CNN
+	1    1150 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR08
 U 1 1 5DAB71CF
-P 4050 7300
-F 0 "#PWR08" H 4050 7050 50  0001 C CNN
-F 1 "GNDA" H 4055 7127 50  0000 C CNN
-F 2 "" H 4050 7300 50  0001 C CNN
-F 3 "" H 4050 7300 50  0001 C CNN
-	1    4050 7300
+P 950 6200
+F 0 "#PWR08" H 950 5950 50  0001 C CNN
+F 1 "GNDA" H 955 6027 50  0000 C CNN
+F 2 "" H 950 6200 50  0001 C CNN
+F 3 "" H 950 6200 50  0001 C CNN
+	1    950  6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 7300 4050 7300
-$Comp
-L power:GNDA #PWR013
-U 1 1 5DAFCCE3
-P 2200 8050
-F 0 "#PWR013" H 2200 7800 50  0001 C CNN
-F 1 "GNDA" H 2205 7877 50  0000 C CNN
-F 2 "" H 2200 8050 50  0001 C CNN
-F 3 "" H 2200 8050 50  0001 C CNN
-	1    2200 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR04
-U 1 1 5DAFD7F5
-P 2800 5500
-F 0 "#PWR04" H 2800 5250 50  0001 C CNN
-F 1 "GNDA" H 2805 5327 50  0000 C CNN
-F 2 "" H 2800 5500 50  0001 C CNN
-F 3 "" H 2800 5500 50  0001 C CNN
-	1    2800 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VAA #PWR0105
-U 1 1 5D5B685A
-P 2300 5300
-F 0 "#PWR0105" H 2300 5150 50  0001 C CNN
-F 1 "VAA" H 2300 5450 50  0000 C CNN
-F 2 "" H 2300 5300 50  0001 C CNN
-F 3 "" H 2300 5300 50  0001 C CNN
-	1    2300 5300
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1300 5900
-NoConn ~ 1300 6000
-NoConn ~ 1300 1700
-NoConn ~ 1300 1800
-NoConn ~ 3300 2900
-NoConn ~ 3300 2800
-Text Label 3300 2300 0    60   ~ 0
+NoConn ~ 1500 1700
+NoConn ~ 3500 2900
+NoConn ~ 3500 2800
+Text Label 3500 2300 0    60   ~ 0
 L20
-Text Label 3300 2400 0    60   ~ 0
+Text Label 3500 2400 0    60   ~ 0
 L21
-NoConn ~ 1300 2600
-NoConn ~ 1300 2700
-NoConn ~ 3300 6500
-NoConn ~ 3300 6600
-NoConn ~ 3300 6700
-NoConn ~ 3300 6800
-NoConn ~ 3300 6900
+NoConn ~ 1500 2600
+NoConn ~ 1500 2700
 Wire Wire Line
 	6200 3350 6800 3350
 Wire Wire Line
@@ -1867,10 +1714,10 @@ F 3 "" H 4700 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VAA #PWR?
+L power:VAA #PWR016
 U 1 1 5DA519F8
 P 4650 5450
-F 0 "#PWR?" H 4650 5300 50  0001 C CNN
+F 0 "#PWR016" H 4650 5300 50  0001 C CNN
 F 1 "VAA" H 4650 5600 50  0000 C CNN
 F 2 "" H 4650 5450 50  0001 C CNN
 F 3 "" H 4650 5450 50  0001 C CNN
@@ -1878,14 +1725,191 @@ F 3 "" H 4650 5450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR010
 U 1 1 5DA52543
 P 4700 1200
-F 0 "#PWR?" H 4700 1050 50  0001 C CNN
+F 0 "#PWR010" H 4700 1050 50  0001 C CNN
 F 1 "VCC" H 4700 1350 50  0000 C CNN
 F 2 "" H 4700 1200 50  0001 C CNN
 F 3 "" H 4700 1200 50  0001 C CNN
 	1    4700 1200
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5D9F4C38
+P 3950 3100
+F 0 "J?" H 4030 3142 50  0000 L CNN
+F 1 "Conn_01x01" H 4030 3051 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 3950 3100 50  0001 C CNN
+F 3 "~" H 3950 3100 50  0001 C CNN
+	1    3950 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3100 3500 3100
+Wire Wire Line
+	850  1900 850  1800
+Wire Wire Line
+	850  1800 950  1800
+Wire Wire Line
+	1500 1800 1350 1800
+NoConn ~ 1550 5900
+Text Label 1550 7500 2    60   ~ 0
+R13
+Text Label 1550 7000 2    60   ~ 0
+R6
+Text Label 1550 6300 2    60   ~ 0
+R16
+Text Label 1550 6200 2    60   ~ 0
+R9
+Text Label 1550 6100 2    60   ~ 0
+R3
+Text Label 1550 6600 2    60   ~ 0
+R17
+Text Label 1550 6500 2    60   ~ 0
+R10
+Text Label 1550 6400 2    60   ~ 0
+R4
+Text Label 1550 7200 2    60   ~ 0
+R15
+Text Label 1550 7400 2    60   ~ 0
+R8
+Text Label 1550 7600 2    60   ~ 0
+R2
+Text Label 1550 6900 2    60   ~ 0
+R18
+Text Label 1550 6800 2    60   ~ 0
+R11
+Text Label 1550 6700 2    60   ~ 0
+R5
+Text Label 1550 7300 2    60   ~ 0
+R19
+Text Label 1550 7100 2    60   ~ 0
+R12
+$Comp
+L Device:C C4
+U 1 1 5DA57153
+P 2800 5500
+F 0 "C4" V 3050 5500 50  0000 C CNN
+F 1 "0.1uF" V 2950 5500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2838 5350 50  0001 C CNN
+F 3 "" H 2800 5500 50  0001 C CNN
+	1    2800 5500
+	0    -1   -1   0   
+$EndComp
+Text Label 3550 6000 0    60   ~ 0
+SWDIO_R
+Text Label 3550 5900 0    60   ~ 0
+SWDCLK_R
+Text Label 3550 7500 0    60   ~ 0
+R1
+Text Label 3550 7000 0    60   ~ 0
+R24
+Text Label 3550 7100 0    60   ~ 0
+R23
+Text Label 3550 7200 0    60   ~ 0
+R22
+Text Label 3550 7400 0    60   ~ 0
+R21
+Wire Wire Line
+	2550 5500 2650 5500
+Text Label 3550 6300 0    60   ~ 0
+R7
+Text Label 3550 6400 0    60   ~ 0
+R14
+Text Label 3550 7600 0    60   ~ 0
+R20
+Wire Wire Line
+	2950 5500 3050 5500
+Wire Wire Line
+	2450 7800 2450 7900
+Wire Wire Line
+	2450 7900 2550 7900
+Wire Wire Line
+	2750 7900 2750 7800
+Wire Wire Line
+	2550 7800 2550 7900
+Connection ~ 2550 7900
+Wire Wire Line
+	2550 7900 2650 7900
+Wire Wire Line
+	2650 7800 2650 7900
+Connection ~ 2650 7900
+Wire Wire Line
+	2650 7900 2750 7900
+Wire Wire Line
+	2450 7900 2450 8050
+Connection ~ 2450 7900
+$Comp
+L RF_Bluetooth:BL652 U5
+U 1 1 5DA571A6
+P 2550 6800
+F 0 "U5" H 1850 7850 40  0000 C CNN
+F 1 "BL652_RIGHT" H 2550 6800 40  0000 C CNN
+F 2 "RF_Module:Laird_BL652" H 2200 7050 40  0001 C CNN
+F 3 "" H 2300 7150 40  0000 C CNN
+	1    2550 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5300 2550 5500
+Connection ~ 2550 5500
+Wire Wire Line
+	2550 5500 2550 5700
+$Comp
+L power:GNDA #PWR013
+U 1 1 5DAFCCE3
+P 2450 8050
+F 0 "#PWR013" H 2450 7800 50  0001 C CNN
+F 1 "GNDA" H 2455 7877 50  0000 C CNN
+F 2 "" H 2450 8050 50  0001 C CNN
+F 3 "" H 2450 8050 50  0001 C CNN
+	1    2450 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR04
+U 1 1 5DAFD7F5
+P 3050 5500
+F 0 "#PWR04" H 3050 5250 50  0001 C CNN
+F 1 "GNDA" H 3055 5327 50  0000 C CNN
+F 2 "" H 3050 5500 50  0001 C CNN
+F 3 "" H 3050 5500 50  0001 C CNN
+	1    3050 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VAA #PWR0105
+U 1 1 5D5B685A
+P 2550 5300
+F 0 "#PWR0105" H 2550 5150 50  0001 C CNN
+F 1 "VAA" H 2550 5450 50  0000 C CNN
+F 2 "" H 2550 5300 50  0001 C CNN
+F 3 "" H 2550 5300 50  0001 C CNN
+	1    2550 5300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3550 6500
+NoConn ~ 3550 6600
+NoConn ~ 3550 6700
+NoConn ~ 3550 6800
+NoConn ~ 3550 6900
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5DA73936
+P 4000 7300
+F 0 "J?" H 4080 7342 50  0000 L CNN
+F 1 "Conn_01x01" H 4080 7251 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 4000 7300 50  0001 C CNN
+F 3 "~" H 4000 7300 50  0001 C CNN
+	1    4000 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 7300 3550 7300
+Wire Wire Line
+	1350 6000 1550 6000
+Wire Wire Line
+	950  6200 950  6000
 $EndSCHEMATC
