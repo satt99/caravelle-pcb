@@ -1731,34 +1731,33 @@ Wire Wire Line
 	850  1800 950  1800
 Wire Wire Line
 	1500 1800 1350 1800
-NoConn ~ 1550 5900
 Text Label 1550 7500 2    60   ~ 0
 R13
 Text Label 1550 7000 2    60   ~ 0
 R6
-Text Label 1550 6300 2    60   ~ 0
-R16
-Text Label 1550 6200 2    60   ~ 0
-R9
 Text Label 1550 6100 2    60   ~ 0
-R3
-Text Label 1550 6600 2    60   ~ 0
-R17
-Text Label 1550 6500 2    60   ~ 0
-R10
-Text Label 1550 6400 2    60   ~ 0
-R4
+R16
+Text Label 1550 5900 2    60   ~ 0
+R9
 Text Label 1550 7200 2    60   ~ 0
-R15
+R3
+Text Label 1550 6400 2    60   ~ 0
+R17
+Text Label 1550 6300 2    60   ~ 0
+R10
+Text Label 1550 6200 2    60   ~ 0
+R4
 Text Label 1550 7400 2    60   ~ 0
-R8
+R15
 Text Label 1550 7600 2    60   ~ 0
+R8
+Text Label 3550 7500 0    60   ~ 0
 R2
-Text Label 1550 6900 2    60   ~ 0
-R18
-Text Label 1550 6800 2    60   ~ 0
-R11
 Text Label 1550 6700 2    60   ~ 0
+R18
+Text Label 1550 6600 2    60   ~ 0
+R11
+Text Label 1550 6500 2    60   ~ 0
 R5
 Text Label 1550 7300 2    60   ~ 0
 R19
@@ -1779,7 +1778,7 @@ Text Label 3550 6000 0    60   ~ 0
 SWDIO_R
 Text Label 3550 5900 0    60   ~ 0
 SWDCLK_R
-Text Label 3550 7500 0    60   ~ 0
+Text Label 3550 6300 0    60   ~ 0
 R1
 Text Label 3550 7000 0    60   ~ 0
 R24
@@ -1791,9 +1790,9 @@ Text Label 3550 7400 0    60   ~ 0
 R21
 Wire Wire Line
 	2550 5500 2650 5500
-Text Label 3550 6300 0    60   ~ 0
-R7
 Text Label 3550 6400 0    60   ~ 0
+R7
+Text Label 3550 6500 0    60   ~ 0
 R14
 Text Label 3550 7600 0    60   ~ 0
 R20
@@ -1867,8 +1866,6 @@ F 3 "" H 2550 5300 50  0001 C CNN
 	1    2550 5300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3550 6600
-NoConn ~ 3550 6700
 NoConn ~ 3550 6800
 NoConn ~ 3550 6900
 $Comp
@@ -1892,8 +1889,11 @@ Text Label 1500 1700 2    60   ~ 0
 ROW
 Text Label 5500 2550 0    60   ~ 0
 ROW
-Text Label 3550 6500 0    60   ~ 0
+Text Label 3550 6700 0    60   ~ 0
 ROW_R
 Text Label 5500 6750 0    60   ~ 0
 ROW_R
+NoConn ~ 1550 6800
+NoConn ~ 1550 6900
+NoConn ~ 3550 6600
 $EndSCHEMATC
