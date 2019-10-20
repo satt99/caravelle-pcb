@@ -87,7 +87,7 @@ U 1 1 5D5C4DA3
 P 5750 1950
 F 0 "J1" H 5778 1926 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 5778 1835 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 5750 1950 50  0001 C CNN
+F 2 "locallib:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal_nosilk" H 5750 1950 50  0001 C CNN
 F 3 "~" H 5750 1950 50  0001 C CNN
 	1    5750 1950
 	1    0    0    -1  
@@ -98,7 +98,7 @@ U 1 1 5D5C5DA6
 P 5750 2300
 F 0 "J2" H 5778 2276 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 5778 2185 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 5750 2300 50  0001 C CNN
+F 2 "locallib:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal_nosilk" H 5750 2300 50  0001 C CNN
 F 3 "~" H 5750 2300 50  0001 C CNN
 	1    5750 2300
 	1    0    0    -1  
