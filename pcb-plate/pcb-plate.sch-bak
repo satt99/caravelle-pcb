@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:caravelle-cache
+LIBS:pcb-plate-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -15,76 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 NoConn ~ 9250 -1600
-$Comp
-L Mechanical:MountingHole U2
-U 1 1 5CAC27DC
-P 10100 3300
-F 0 "U2" H 10278 3353 60  0000 L CNN
-F 1 "hole" H 10278 3247 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 3300 60  0001 C CNN
-F 3 "" H 10100 3300 60  0001 C CNN
-	1    10100 3300
-	1    0    0    -1  
-$EndComp
-Text Notes 9900 3000 0    60   ~ 0
-MOUSE BITES
-$Comp
-L Mechanical:MountingHole U3
-U 1 1 5CAFE7E6
-P 10700 3300
-F 0 "U3" H 10878 3353 60  0000 L CNN
-F 1 "hole" H 10878 3247 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10700 3300 60  0001 C CNN
-F 3 "" H 10700 3300 60  0001 C CNN
-	1    10700 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole U6
-U 1 1 5CAFF053
-P 10100 7500
-F 0 "U6" H 10278 7553 60  0000 L CNN
-F 1 "hole" H 10278 7447 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 7500 60  0001 C CNN
-F 3 "" H 10100 7500 60  0001 C CNN
-	1    10100 7500
-	1    0    0    -1  
-$EndComp
-Text Notes 9900 7200 0    60   ~ 0
-MOUSE BITES
-$Comp
-L Mechanical:MountingHole U7
-U 1 1 5CAFF064
-P 10700 7500
-F 0 "U7" H 10878 7553 60  0000 L CNN
-F 1 "hole" H 10878 7447 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10700 7500 60  0001 C CNN
-F 3 "" H 10700 7500 60  0001 C CNN
-	1    10700 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole U4
-U 1 1 5CAD1F0F
-P 10100 3700
-F 0 "U4" H 10278 3753 60  0000 L CNN
-F 1 "hole" H 10278 3647 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 3700 60  0001 C CNN
-F 3 "" H 10100 3700 60  0001 C CNN
-	1    10100 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole U8
-U 1 1 5CAE0D14
-P 10100 7900
-F 0 "U8" H 10278 7953 60  0000 L CNN
-F 1 "hole" H 10278 7847 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 7900 60  0001 C CNN
-F 3 "" H 10100 7900 60  0001 C CNN
-	1    10100 7900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5DA5E817
@@ -347,6 +277,28 @@ F 1 "SW_Push" H 6550 6244 50  0000 C CNN
 F 2 "locallib:SWCutout_Pad" H 6550 6250 50  0001 C CNN
 F 3 "~" H 6550 6250 50  0001 C CNN
 	1    6550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DADF2CF
+P 7450 4850
+F 0 "H1" H 7550 4896 50  0000 L CNN
+F 1 "MountingHole" H 7550 4805 50  0000 L CNN
+F 2 "" H 7450 4850 50  0001 C CNN
+F 3 "~" H 7450 4850 50  0001 C CNN
+	1    7450 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DADFA73
+P 7450 5350
+F 0 "H2" H 7550 5396 50  0000 L CNN
+F 1 "MountingHole" H 7550 5305 50  0000 L CNN
+F 2 "" H 7450 5350 50  0001 C CNN
+F 3 "~" H 7450 5350 50  0001 C CNN
+	1    7450 5350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
