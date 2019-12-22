@@ -910,12 +910,12 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole U2
 U 1 1 5CAC27DC
-P 10100 3300
-F 0 "U2" H 10278 3353 60  0000 L CNN
-F 1 "hole" H 10278 3247 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 3300 60  0001 C CNN
-F 3 "" H 10100 3300 60  0001 C CNN
-	1    10100 3300
+P 10100 3200
+F 0 "U2" H 10278 3253 60  0000 L CNN
+F 1 "hole" H 10278 3147 60  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 3200 60  0001 C CNN
+F 3 "" H 10100 3200 60  0001 C CNN
+	1    10100 3200
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -931,23 +931,23 @@ Wire Notes Line
 $Comp
 L Mechanical:MountingHole U3
 U 1 1 5CAFE7E6
-P 10700 3300
-F 0 "U3" H 10878 3353 60  0000 L CNN
-F 1 "hole" H 10878 3247 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10700 3300 60  0001 C CNN
-F 3 "" H 10700 3300 60  0001 C CNN
-	1    10700 3300
+P 10700 3200
+F 0 "U3" H 10878 3253 60  0000 L CNN
+F 1 "hole" H 10878 3147 60  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10700 3200 60  0001 C CNN
+F 3 "" H 10700 3200 60  0001 C CNN
+	1    10700 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole U6
 U 1 1 5CAFF053
-P 10100 7500
-F 0 "U6" H 10278 7553 60  0000 L CNN
-F 1 "hole" H 10278 7447 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 7500 60  0001 C CNN
-F 3 "" H 10100 7500 60  0001 C CNN
-	1    10100 7500
+P 10100 7400
+F 0 "U6" H 10278 7453 60  0000 L CNN
+F 1 "hole" H 10278 7347 60  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 7400 60  0001 C CNN
+F 3 "" H 10100 7400 60  0001 C CNN
+	1    10100 7400
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -963,34 +963,34 @@ Wire Notes Line
 $Comp
 L Mechanical:MountingHole U7
 U 1 1 5CAFF064
-P 10700 7500
-F 0 "U7" H 10878 7553 60  0000 L CNN
-F 1 "hole" H 10878 7447 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10700 7500 60  0001 C CNN
-F 3 "" H 10700 7500 60  0001 C CNN
-	1    10700 7500
+P 10700 7400
+F 0 "U7" H 10878 7453 60  0000 L CNN
+F 1 "hole" H 10878 7347 60  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10700 7400 60  0001 C CNN
+F 3 "" H 10700 7400 60  0001 C CNN
+	1    10700 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole U4
 U 1 1 5CAD1F0F
-P 10100 3700
-F 0 "U4" H 10278 3753 60  0000 L CNN
-F 1 "hole" H 10278 3647 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 3700 60  0001 C CNN
-F 3 "" H 10100 3700 60  0001 C CNN
-	1    10100 3700
+P 10100 3550
+F 0 "U4" H 10278 3603 60  0000 L CNN
+F 1 "hole" H 10278 3497 60  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 3550 60  0001 C CNN
+F 3 "" H 10100 3550 60  0001 C CNN
+	1    10100 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole U8
 U 1 1 5CAE0D14
-P 10100 7900
-F 0 "U8" H 10278 7953 60  0000 L CNN
-F 1 "hole" H 10278 7847 60  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 7900 60  0001 C CNN
-F 3 "" H 10100 7900 60  0001 C CNN
-	1    10100 7900
+P 10100 7750
+F 0 "U8" H 10278 7803 60  0000 L CNN
+F 1 "hole" H 10278 7697 60  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 7750 60  0001 C CNN
+F 3 "" H 10100 7750 60  0001 C CNN
+	1    10100 7750
 	1    0    0    -1  
 $EndComp
 Text Label 3500 3200 0    60   ~ 0
@@ -1896,4 +1896,156 @@ ROW_R
 NoConn ~ 1550 6800
 NoConn ~ 1550 6900
 NoConn ~ 3550 6600
+$Comp
+L Mechanical:MountingHole U19
+U 1 1 5E020BCB
+P 10700 3550
+F 0 "U19" H 10878 3603 60  0000 L CNN
+F 1 "hole" H 10878 3497 60  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10700 3550 60  0001 C CNN
+F 3 "" H 10700 3550 60  0001 C CNN
+	1    10700 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole U20
+U 1 1 5E021619
+P 10100 3900
+F 0 "U20" H 10278 3953 60  0000 L CNN
+F 1 "hole" H 10278 3847 60  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 3900 60  0001 C CNN
+F 3 "" H 10100 3900 60  0001 C CNN
+	1    10100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole U21
+U 1 1 5E040166
+P 10700 7750
+F 0 "U21" H 10878 7803 60  0000 L CNN
+F 1 "hole" H 10878 7697 60  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10700 7750 60  0001 C CNN
+F 3 "" H 10700 7750 60  0001 C CNN
+	1    10700 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole U22
+U 1 1 5E04041A
+P 10100 8100
+F 0 "U22" H 10278 8153 60  0000 L CNN
+F 1 "hole" H 10278 8047 60  0000 L CNN
+F 2 "random-keyboard-parts:breakaway-mousebites" H 10100 8100 60  0001 C CNN
+F 3 "" H 10100 8100 60  0001 C CNN
+	1    10100 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole U9
+U 1 1 5E044C5A
+P 13750 850
+F 0 "U9" H 13928 903 60  0000 L CNN
+F 1 "hole" H 13928 797 60  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask3mm" H 13750 850 60  0001 C CNN
+F 3 "" H 13750 850 60  0001 C CNN
+	1    13750 850 
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	15000 1750 15000 500 
+Text Notes 13550 650  0    60   ~ 0
+FIDUCIAL
+Wire Notes Line
+	13450 1750 15000 1750
+Wire Notes Line
+	15000 500  13450 500 
+Wire Notes Line
+	13450 500  13450 1750
+$Comp
+L Mechanical:MountingHole U10
+U 1 1 5E044C69
+P 14350 850
+F 0 "U10" H 14528 903 60  0000 L CNN
+F 1 "hole" H 14528 797 60  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask3mm" H 14350 850 60  0001 C CNN
+F 3 "" H 14350 850 60  0001 C CNN
+	1    14350 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole U14
+U 1 1 5E044C73
+P 13750 1200
+F 0 "U14" H 13928 1253 60  0000 L CNN
+F 1 "hole" H 13928 1147 60  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask2.25mm" H 13750 1200 60  0001 C CNN
+F 3 "" H 13750 1200 60  0001 C CNN
+	1    13750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole U15
+U 1 1 5E0580A4
+P 13750 2200
+F 0 "U15" H 13928 2253 60  0000 L CNN
+F 1 "hole" H 13928 2147 60  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 13750 2200 60  0001 C CNN
+F 3 "" H 13750 2200 60  0001 C CNN
+	1    13750 2200
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	15000 3100 15000 1850
+Wire Notes Line
+	13450 3100 15000 3100
+Wire Notes Line
+	15000 1850 13450 1850
+Wire Notes Line
+	13450 1850 13450 3100
+$Comp
+L Mechanical:MountingHole U16
+U 1 1 5E0580B3
+P 14350 2200
+F 0 "U16" H 14528 2253 60  0000 L CNN
+F 1 "hole" H 14528 2147 60  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 14350 2200 60  0001 C CNN
+F 3 "" H 14350 2200 60  0001 C CNN
+	1    14350 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole U17
+U 1 1 5E0580BD
+P 13750 2550
+F 0 "U17" H 13928 2603 60  0000 L CNN
+F 1 "hole" H 13928 2497 60  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 13750 2550 60  0001 C CNN
+F 3 "" H 13750 2550 60  0001 C CNN
+	1    13750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole U18
+U 1 1 5E0580C7
+P 14350 2550
+F 0 "U18" H 14528 2603 60  0000 L CNN
+F 1 "hole" H 14528 2497 60  0000 L CNN
+F 2 "MountingHole:MountingHole_4mm" H 14350 2550 60  0001 C CNN
+F 3 "" H 14350 2550 60  0001 C CNN
+	1    14350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole U23
+U 1 1 5E044C7D
+P 14350 1200
+F 0 "U23" H 14528 1253 60  0000 L CNN
+F 1 "hole" H 14528 1147 60  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask2.25mm" H 14350 1200 60  0001 C CNN
+F 3 "" H 14350 1200 60  0001 C CNN
+	1    14350 1200
+	1    0    0    -1  
+$EndComp
+Text Notes 13550 2000 0    60   ~ 0
+REFERENCE HOLE
 $EndSCHEMATC
