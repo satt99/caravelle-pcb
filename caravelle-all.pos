@@ -1,0 +1,16 @@
+### Module positions - created on 2019/12/22 19:30:09 ###
+### Printed by Pcbnew version kicad (5.1.4)-1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val          Package                                           PosX       PosY       Rot  Side
+C1        0.1uF        C_0603_1608Metric_Pad1.05x0.95mm_HandSolder    38.0000   -81.3000    0.0000  top
+C4        0.1uF        C_0603_1608Metric_Pad1.05x0.95mm_HandSolder   253.2000   -83.1000  180.0000  top
+SW3       RESET_SW     SW_SPST_ALPS-SKRP                               5.3000   -84.2500    0.0000  top
+SW4       RESET_SW     SW_SPST_ALPS-SKRP                             272.1000   -84.2500    0.0000  top
+U1        BL652_LEFT   Laird_BL652                                    32.0500   -89.5500   90.0000  top
+U5        BL652_RIGHT  Laird_BL652                                   245.3500   -89.5500   90.0000  top
+U9        fiducial     Fiducial_1mm_Mask3mm                          267.4000  -120.0000    0.0000  top
+U10       fiducial     Fiducial_1mm_Mask3mm                           15.0000   -10.0000    0.0000  top
+U14       fiducial     Fiducial_0.75mm_Mask2.25mm                     15.0000  -120.0000    0.0000  top
+U23       fiducial     Fiducial_0.75mm_Mask2.25mm                    267.4000   -10.0000    0.0000  top
+## End

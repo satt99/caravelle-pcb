@@ -1,4 +1,4 @@
-16287113510545453
+16288701579343993
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72631,6 +72631,13 @@ MDBT40
 0
 42
 42
+locallib
+MountingHole_4mm
+Mounting Hole 4mm, no annular
+mounting hole 4mm no annular
+0
+0
+0
 locallib
 SW_SPST_ALPS-SKRP
 C&K Components, PTS 810 Series, Microminiature SMT Top Actuated, http://www.ckswitches.com/media/1476/pts810.pdf

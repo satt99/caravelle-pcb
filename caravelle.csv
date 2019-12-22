@@ -1,0 +1,18 @@
+"ID";"参照記号";"パッケージ";"数";"名称";"Supplier and ref";
+1;"SW2,SW1";"slide_switch_vertical_01x03_pitch2mm";2;"SW_SPDT";;;
+2;"U23,U14";"Fiducial_0.75mm_Mask2.25mm";2;"fiducial";;;
+3;"U22,U21,U20,U19,U8,U7,U6,U4,U3,U2";"breakaway-mousebites";10;"hole";;;
+4;"U18,U17,U16,U15";"MountingHole_4mm";4;"hole";;;
+5;"U10,U9";"Fiducial_1mm_Mask3mm";2;"fiducial";;;
+6;"U12";"logo2";1;"logo2";;;
+7;"U5";"Laird_BL652";1;"BL652_RIGHT";;;
+8;"U1";"Laird_BL652";1;"BL652_LEFT";;;
+9;"J6,J5";"breakout-pad";2;"Conn_01x01";;;
+10;"U13,U11";"logo1";2;"logo1";;;
+11;"K48,K24";"MXOnly-1.5U-NoLED";2;"keyboard_parts_KEYSW";;;
+12;"K39,K16,K14,K38,K20,K47,K1,K2,K5,K6,K7,K8,K9,K10,K11,K12,K13,K15,K17,K18,K19,K23,K25,K26,K27,K28,K29,K30,K31,K32,K33,K34,K35,K36,K37,K40,K41,K42,K43,K44,K3,K4";"MXOnly-1U-NoLED";42;"keyboard_parts_KEYSW";;;
+13;"K21,K22,K45,K46";"MXOnly-1.25U-NoLED";4;"keyboard_parts_KEYSW";;;
+14;"J1,J3";"programming_port";2;"Conn_01x04";;;
+15;"SW4,SW3";"SW_SPST_ALPS-SKRP";2;"RESET_SW";;;
+16;"J4,J2";"JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal";2;"Conn_01x02_Female";;;
+17;"C4,C1";"C_0603_1608Metric_Pad1.05x0.95mm_HandSolder";2;"0.1uF";;;
